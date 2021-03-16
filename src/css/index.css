@@ -1,0 +1,5 @@
+/* this file imports the tailwindcss styles to use. You also need to import it in gatsby-browser*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
