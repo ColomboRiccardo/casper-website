@@ -33,6 +33,7 @@ export const Contacts = () => (
 							type='email'
 							name='email'
 							className='w-full h-8 px-4 rounded-2xl'
+							required
 						/>
 					</label>
 
@@ -46,6 +47,7 @@ export const Contacts = () => (
 							type='text'
 							name='nome'
 							className='w-full h-8 px-4 rounded-2xl'
+							required
 						/>
 					</label>
 
@@ -59,6 +61,7 @@ export const Contacts = () => (
 							type='textarea'
 							name='text'
 							className='w-full h-16 px-4 rounded-2xl focus:outline-none focus:ring-2'
+							required
 						/>
 					</label>
 
