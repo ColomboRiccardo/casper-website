@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { BlogGrid } from '../components/blogGrid';
+import { BlogSection } from '../components/blogSection';
 import { Contacts } from '../components/contacts';
 import { Header } from '../components/header';
 import { MainHero } from '../components/mainHero';
@@ -10,7 +10,7 @@ const IndexPage = () => {
 			<title>Home Page</title>
 			<Header />
 			<MainHero />
-			<BlogGrid />
+			<BlogSection />
 			<Contacts />
 		</main>
 	);
