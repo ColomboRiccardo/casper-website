@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: 'gatsby-docs',
-		siteUrl: 'http://www.casper.liguria.it',
+		siteUrl: 'https://casper-website.netlify.app/',
 	},
 	plugins: [
 		'gatsby-plugin-netlify-cms',
