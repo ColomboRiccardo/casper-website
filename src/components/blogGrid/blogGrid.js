@@ -1,8 +1,9 @@
 import React from 'react';
-import { BlogCard } from './blogCard';
+import './blogGrid.style.scss';
+import { BlogCard } from '../blogCard/blogCard';
 
 export const BlogGrid = () => (
-	<div className='flex flex-col sm:flex-row sm:flex-wrap justify-center items-center'>
+	<div className='blog-grid'>
 		<BlogCard />
 		<BlogCard />
 		<BlogCard />

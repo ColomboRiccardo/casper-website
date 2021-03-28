@@ -1,0 +1,59 @@
+@use '../../css/main' as *;
+
+.top-header {
+	display: none;
+}
+
+.bottom-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+	background-color: $light-accent;
+}
+
+.bottom-header-left {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+
+	.casper-logo {
+		max-height: 2rem;
+	}
+
+	.casper-logo-title {
+		font-size: 1.6rem;
+		margin-left: 0.5rem;
+		font-weight: 700;
+	}
+}
+
+.bottom-header-right-mobile {
+	max-width: 2rem;
+	img {
+		width: 1.5rem;
+	}
+}
+
+.bottom-header-right {
+	display: none;
+}
+
+// From here on, we have media queries
+
+@media only screen and (min-width: 768px) {
+	.bottom-header-right-mobile {
+		display: none;
+	}
+
+	.bottom-header-right {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		* {
+			margin: 0px 0.5rem;
+		}
+	}
+}

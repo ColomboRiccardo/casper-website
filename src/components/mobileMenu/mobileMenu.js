@@ -1,8 +1,9 @@
 import React from 'react';
+import './mobileMenu.style.scss';
 import { Link } from 'gatsby';
 
 export const MobileMenu = () => (
-	<div className='sm:hidden p-2 bg-pink-200'>
+	<div className='mobile-menu'>
 		<Link to='/' className='block font-semibold text-right my-2'>
 			Home
 		</Link>

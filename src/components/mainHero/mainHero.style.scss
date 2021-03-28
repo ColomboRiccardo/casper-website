@@ -1,0 +1,84 @@
+@use '../../css/main' as *;
+
+.main-hero {
+	background-image: url('../../images/mainHero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	height: 100%;
+	padding: 7.5% 0px;
+
+	.main-hero-container {
+		width: 95%;
+		height: 100%;
+		margin: auto;
+		background-color: rgba($light-shades, 0.6);
+		padding: 1rem;
+		border-radius: $big-radius;
+		p {
+			font-size: 1.2rem;
+			line-height: 1.5rem;
+		}
+
+		button {
+			&:first-child {
+				margin-right: 0.3rem;
+			}
+			font-size: 1.2rem;
+			font-weight: 600;
+			padding: 0.5rem 0.8rem;
+			background-color: $base-color;
+			border-radius: $small-radius;
+		}
+
+		* {
+			margin: 0.5rem 0px;
+		}
+	}
+
+	.main-hero-heading {
+		font-size: 2rem;
+		line-height: 2.2rem;
+	}
+
+	.main-hero-logo {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		img {
+			width: 4.5rem;
+		}
+		h2 {
+			font-size: 2.6rem;
+			margin-left: 0.2rem;
+		}
+	}
+
+	img {
+		width: 10rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.main-hero {
+		.main-hero-container {
+			button {
+				font-size: 1.4rem;
+				&:first-child {
+					margin-right: 0.6rem;
+				}
+			}
+		}
+		.main-hero-heading {
+			font-size: 2.4rem;
+			line-height: 2.2rem;
+		}
+
+		.main-hero-logo {
+			h2 {
+				font-size: 3.2rem;
+				margin-left: 0.2rem;
+			}
+		}
+	}
+}

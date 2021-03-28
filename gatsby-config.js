@@ -5,12 +5,12 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-netlify-cms',
-		'gatsby-plugin-postcss',
 		'gatsby-plugin-image',
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sitemap',
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
+		`gatsby-plugin-sass`,
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {

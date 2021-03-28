@@ -1,0 +1,13 @@
+@use '../../css/main' as *;
+
+.mobile-menu {
+	display: flex;
+	flex-direction: column;
+	background-color: $base-color;
+
+	* {
+		font-size: 1.3rem;
+		text-align: right;
+		margin: 0.75rem 0.5rem;
+	}
+}

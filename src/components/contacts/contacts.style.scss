@@ -1,0 +1,53 @@
+@use '../../css/main' as *;
+
+.contacts {
+	@include section;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $base-color;
+	border-radius: $big-radius;
+	padding: 1rem;
+
+	* {
+		margin: 0.3rem 0px;
+		text-align: center;
+	}
+
+	h2 {
+		@include sub-heading;
+		margin: 0.5rem;
+	}
+
+	p {
+		@include paragraph;
+	}
+
+	.lighter-paragraph {
+		font-weight: 300;
+	}
+
+	label {
+		display: block;
+		font-size: 1.2rem;
+		font-weight: 600;
+		margin-top: 1.3rem;
+	}
+
+	input,
+	textarea {
+		width: 80%;
+		height: 1.5rem;
+	}
+
+	button {
+		width: 70%;
+		padding: 0.5rem;
+		font-size: 1.2rem;
+		font-weight: 600;
+		margin-top: 1.3rem;
+		border-radius: $small-radius;
+		background-color: $base-color;
+	}
+}

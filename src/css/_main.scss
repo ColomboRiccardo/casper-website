@@ -1,0 +1,31 @@
+@mixin heading {
+	/*m-2 text-center text-2xl font-semibold*/
+	text-align: center;
+	font-size: 2rem;
+	margin: 1em;
+	font-weight: 500;
+}
+
+@mixin section {
+	margin: 1em;
+}
+
+@mixin sub-heading {
+	font-size: 2rem;
+	text-align: center;
+}
+
+@mixin paragraph {
+	font-size: 1rem;
+	line-height: 1.4rem;
+}
+
+$base-color: #fec5bb;
+$light-shades: #f4f4f3;
+$light-accent: #fcd5ce;
+$lighter-accent: #fae1dd;
+$dark-shades: #e8e8e4;
+$darker-shades: #d8e2dc;
+
+$big-radius: 1.5rem;
+$small-radius: 0.5rem;

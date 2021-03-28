@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { BlogSection } from '../components/blogSection';
-import { Contacts } from '../components/contacts';
-import { Header } from '../components/header';
-import { MainHero } from '../components/mainHero';
-import { WhoAreWe } from '../components/whoAreWe';
+import { BlogSection } from '../components/blogSection/blogSection';
+import { Contacts } from '../components/contacts/contacts';
+import { Header } from '../components/header/header';
+import { MainHero } from '../components/mainHero/mainHero';
+import { WhoAreWe } from '../components/whoAreWe/whoAreWe';
 
 const IndexPage = () => {
 	return (
