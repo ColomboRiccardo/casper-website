@@ -14,5 +14,6 @@
 	p,
 	span {
 		@include paragraph;
+		text-align: center;
 	}
 }

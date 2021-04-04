@@ -57,3 +57,21 @@
 		}
 	}
 }
+
+@media only screen and (min-width: 1024px) {
+	.header {
+		p {
+			font-size: 1.3em;
+		}
+
+		.bottom-header-left {
+			.casper-logo {
+				max-height: 2em;
+			}
+
+			.casper-logo-title {
+				font-size: 2em;
+			}
+		}
+	}
+}

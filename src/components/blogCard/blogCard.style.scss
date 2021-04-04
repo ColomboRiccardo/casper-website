@@ -42,3 +42,11 @@
 		margin: 1rem;
 	}
 }
+
+@media only screen and (min-width: 1024px) {
+	.blog-card {
+		flex-basis: 330px;
+		flex-shrink: 1;
+		flex-grow: 0.3;
+	}
+}
