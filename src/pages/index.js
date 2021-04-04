@@ -4,6 +4,7 @@ import { Contacts } from '../components/contacts/contacts';
 import { Header } from '../components/header/header';
 import { MainHero } from '../components/mainHero/mainHero';
 import { WhoAreWe } from '../components/whoAreWe/whoAreWe';
+import { Footer } from '../components/footer/footer';
 
 const IndexPage = () => {
 	return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
 			<WhoAreWe />
 			<BlogSection />
 			<Contacts />
+			<Footer />
 		</main>
 	);
 };

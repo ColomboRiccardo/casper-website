@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1440 - 300)));
+	line-height: 1;
+}
+
 h1,
 h2,
 h3,
@@ -21,7 +26,6 @@ button {
 /* This is premade css reset */
 
 html,
-body,
 div,
 span,
 applet,
@@ -87,14 +91,11 @@ td {
 	padding: 0;
 	border: 0;
 	outline: 0;
-	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
 	text-decoration: none;
 }
-body {
-	line-height: 1;
-}
+
 ol,
 ul {
 	list-style: none;
@@ -128,8 +129,3 @@ table {
 }
 
 /* This is the css rule to have fluid font sizes */
-
-body {
-	font-size: calc(14px + (26 - 14) * ((100vw - 280px) / (1600 - 280)));
-	background-color: #fae1dd;
-}

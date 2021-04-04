@@ -15,9 +15,9 @@
 		background-color: rgba($light-shades, 0.6);
 		padding: 1rem;
 		border-radius: $big-radius;
+
 		p {
-			font-size: 1.2rem;
-			line-height: 1.5rem;
+			@include paragraph;
 		}
 
 		button {
@@ -79,6 +79,25 @@
 				font-size: 3.2rem;
 				margin-left: 0.2rem;
 			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.main-hero {
+		.main-hero-container {
+			width: 80%;
+			padding: 1.3rem;
+			margin: 0;
+			margin-left: 2em;
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.main-hero {
+		.main-hero-container {
+			width: 60%;
 		}
 	}
 }

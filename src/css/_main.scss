@@ -1,7 +1,7 @@
 @mixin heading {
 	/*m-2 text-center text-2xl font-semibold*/
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2em;
 	margin: 1em;
 	font-weight: 500;
 }
@@ -11,13 +11,13 @@
 }
 
 @mixin sub-heading {
-	font-size: 2rem;
+	font-size: 2em;
 	text-align: center;
 }
 
 @mixin paragraph {
-	font-size: 1rem;
-	line-height: 1.4rem;
+	font-size: 1em;
+	line-height: 1.4em;
 }
 
 $base-color: #fec5bb;
@@ -29,3 +29,10 @@ $darker-shades: #d8e2dc;
 
 $big-radius: 1.5rem;
 $small-radius: 0.5rem;
+
+@media only screen and (min-width: 768px) {
+	@mixin paragraph {
+		font-size: 1em;
+		line-height: 1.7em;
+	}
+}

@@ -35,19 +35,19 @@ export const Contacts = () => (
 			>
 				<input type='hidden' name='bot-field' />
 				<input type='hidden' name='form-name' value='contact' />
-				<label for='email'>
+				<label htmlFor='email'>
 					La tua e-mail
 					<br />
 					<input type='email' name='email' required />
 				</label>
 
-				<label for='nome'>
-					Il tuo nome
+				<label htmlFor='nome'>
+					Il tuo nome (facoltativo)
 					<br />
-					<input type='text' name='nome' required />
+					<input type='text' name='nome' />
 				</label>
 
-				<label for='text'>
+				<label htmlFor='text'>
 					Dicci qual è il problema:
 					<br />
 					<textarea type='textarea' name='text' required />

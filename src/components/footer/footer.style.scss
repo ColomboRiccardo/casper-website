@@ -1,0 +1,19 @@
+@use '../../css/main' as *;
+
+footer {
+	h2 {
+		@include sub-heading;
+		margin-bottom: 1rem;
+	}
+
+	img {
+		height: 4rem;
+		display: block;
+		margin: auto;
+	}
+
+	p {
+		margin: 0.2rem 1rem 1rem 1rem;
+		text-align: center;
+	}
+}

@@ -9,7 +9,7 @@ import { MobileMenu } from '../mobileMenu/mobileMenu';
 export const Header = () => {
 	const [openMenu, setOpenMenu] = useState(false);
 	return (
-		<header className=''>
+		<header className='header'>
 			<div className='top-header'>
 				<p className='mx-4'>E-mail: casper.liguria@gmail.com</p>
 				<p className='mx-4'>Tel: +39 338 229 5037</p>
