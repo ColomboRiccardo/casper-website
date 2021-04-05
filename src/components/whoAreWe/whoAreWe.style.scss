@@ -1,0 +1,50 @@
+@use '../main' as *;
+
+.who-are-we {
+	@include section;
+	* {
+		margin: 0.5em 0px;
+	}
+
+	h2 {
+		@include sub-heading;
+	}
+
+	p {
+		@include paragraph;
+	}
+
+	.who-are-we-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	img {
+		max-width: 100%;
+		border-radius: $small-radius;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.who-are-we {
+		.who-are-we-section {
+			flex-direction: row;
+			justify-content: space-around;
+
+			&:last-child {
+				flex-direction: row-reverse;
+				justify-content: space-around;
+			}
+
+			div {
+				width: 50%;
+				margin: 0px 0.5rem;
+				padding: 0px 2.5%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	}
+}
