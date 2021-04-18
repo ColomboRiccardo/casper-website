@@ -4,7 +4,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby';
 import CAsPerLogo from '../../images/CAsPer-logo.svg';
 import MenuIcon from '../../images/menu-icon.svg';
 import CloseIcon from '../../images/close-icon.svg';
-import { MobileMenu } from '../mobileMenu/mobileMenu';
+import { MobileMenu } from '../mobileMenuFolder/mobileMenu';
 
 export const Header = () => {
 	const [openMenu, setOpenMenu] = useState(false);

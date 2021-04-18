@@ -1,6 +1,6 @@
 import React from 'react';
 import { BlogGrid } from '../components/blogGrid/blogGrid';
-import { Layout } from '../components/layout/layout';
+import { Layout } from '../components/layoutFolder/Layout';
 
 const Blog = () => (
 	<div>

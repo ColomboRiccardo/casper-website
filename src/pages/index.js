@@ -2,9 +2,9 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import { BlogSection } from '../components/blogSection/blogSection';
 import { Contacts } from '../components/contacts/contacts';
-import { MainHero } from '../components/mainHero/mainHero';
-import WhoAreWe from '../components/whoAreWe/whoAreWe';
-import { Layout } from '../components/layout/Layout';
+import { MainHero } from '../components/mainHeroFolder/mainHero';
+import WhoAreWe from '../components/whoAreWeFolder/whoAreWe';
+import { Layout } from '../components/layoutFolder/Layout';
 
 const IndexPage = ({ data }) => {
 	return (
