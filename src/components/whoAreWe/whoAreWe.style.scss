@@ -19,11 +19,11 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	img {
-		max-width: 100%;
+	.who-are-we-image {
 		border-radius: $small-radius;
-		margin: auto;
 	}
+}
+.who-are-we-image-container {
 }
 
 @media only screen and (min-width: 768px) {
@@ -45,6 +45,19 @@
 				flex-direction: column;
 				align-items: center;
 			}
+		}
+		.who-are-we-image {
+			border-radius: $small-radius;
+
+			height: 280px;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.who-are-we {
+		.who-are-we-image {
+			height: 380px;
 		}
 	}
 }

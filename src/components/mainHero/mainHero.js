@@ -1,6 +1,5 @@
 import React from 'react';
 import './mainHero.style.scss';
-import mainHero from '../../images/mainHero.jpg';
 import CAsPerLogo from '../../images/CAsPer-logo.svg';
 
 export const MainHero = () => (

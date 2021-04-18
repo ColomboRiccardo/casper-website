@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './header.style.scss';
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 import CAsPerLogo from '../../images/CAsPer-logo.svg';
 import MenuIcon from '../../images/menu-icon.svg';
 import CloseIcon from '../../images/close-icon.svg';
@@ -8,6 +8,21 @@ import { MobileMenu } from '../mobileMenu/mobileMenu';
 
 export const Header = () => {
 	const [openMenu, setOpenMenu] = useState(false);
+
+	const data = useStaticQuery(graphql`
+		query SiteInfo2 {
+			site {
+				siteMetadata {
+					copyright
+					description
+					title
+				}
+			}
+		}
+	`);
+
+	const { title } = data.site.siteMetadata;
+
 	return (
 		<header className='header'>
 			<div className='top-header'>
